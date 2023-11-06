@@ -29,8 +29,10 @@ modules:
 - name: jellybean
   builddir: true
   buildsystem: meson
+  config-opts:
+      - '-Dprofile=beta'
   sources:
   - type: git
     url: "https://codeberg.org/turtle/jellybean.git"
-    tag: "0.2.0"
-    commit: "f9c680628f9f778777a6f9f7b2c91d5cbd7a8a87"
+    tag: "0.2.1"
+    commit: "5f4be591d3f02a94605f64e1e017e08ce62f03b1"
