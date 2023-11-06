@@ -34,5 +34,4 @@ modules:
   sources:
   - type: git
     url: "https://codeberg.org/turtle/jellybean.git"
-    tag: "0.2.1"
-    commit: "5f4be591d3f02a94605f64e1e017e08ce62f03b1"
+    commit: "bb3bcbeed202a470869765a4c639fba6954bc110"
