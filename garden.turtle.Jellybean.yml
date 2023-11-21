@@ -5,7 +5,7 @@ runtime-version: "45"
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.vala
-command: jellybean
+command: stockpile
 finish-args:
 - "--share=ipc"
 - "--socket=fallback-x11"
@@ -26,12 +26,20 @@ cleanup:
 - "*.la"
 - "*.a"
 modules:
-- name: jellybean
+- buildsystem: meson
+  cleanup:
+  - '*'
+  name: blueprint-compiler
+  sources:
+  - commit: "80aaee374d332b0c7e04a132cce9c472d6427a1e"
+    type: git
+    url: "https://gitlab.gnome.org/jwestman/blueprint-compiler"
+- name: stockpile
   builddir: true
   buildsystem: meson
   config-opts:
       - '-Dprofile=beta'
   sources:
   - type: git
-    url: "https://codeberg.org/turtle/jellybean.git"
-    commit: "ebf83367ab9e08f35ee223cd0aa030138dc454f1"
+    url: "https://codeberg.org/turtle/stockpile.git"
+    commit: "fb35c086e7f11bf57132d7ec5e74bd86a5903d3e"
