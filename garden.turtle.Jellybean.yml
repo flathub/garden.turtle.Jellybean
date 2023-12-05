@@ -42,4 +42,4 @@ modules:
   sources:
   - type: git
     url: "https://codeberg.org/turtle/stockpile.git"
-    commit: "09781675496d469984a15cce64cf30c60d78aea3"
+    commit: "7886e2aabbfd001b1e717511273d13cb0302e205"
