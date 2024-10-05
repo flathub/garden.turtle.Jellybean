@@ -31,7 +31,7 @@ modules:
   - '*'
   name: blueprint-compiler
   sources:
-  - commit: "80aaee374d332b0c7e04a132cce9c472d6427a1e"
+  - commit: "8e10fcf8692108b9d4ab78f41086c5d7773ef864"
     type: git
     url: "https://gitlab.gnome.org/jwestman/blueprint-compiler"
 - name: stockpile
@@ -40,4 +40,4 @@ modules:
   sources:
   - type: git
     url: "https://codeberg.org/turtle/stockpile.git"
-    commit: "169a94fc34b64932f6289f9c2e18f284af463191"
+    commit: "8408af171b0d3e354036cd1557c829359187ce6f"
