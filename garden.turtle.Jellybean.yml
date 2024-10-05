@@ -1,7 +1,7 @@
 ---
 app-id: garden.turtle.Jellybean
 runtime: org.gnome.Platform
-runtime-version: "45"
+runtime-version: "47"
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.vala
@@ -40,4 +40,4 @@ modules:
   sources:
   - type: git
     url: "https://codeberg.org/turtle/stockpile.git"
-    commit: "8c666b8cbd8833506fad1028f1ef1cc8269a1761"
+    commit: "169a94fc34b64932f6289f9c2e18f284af463191"
