@@ -1,7 +1,7 @@
 ---
 app-id: garden.turtle.Jellybean
 runtime: org.gnome.Platform
-runtime-version: "47"
+runtime-version: "48"
 sdk: org.gnome.Sdk
 sdk-extensions:
 - org.freedesktop.Sdk.Extension.vala
@@ -31,7 +31,7 @@ modules:
   - '*'
   name: blueprint-compiler
   sources:
-  - commit: "8e10fcf8692108b9d4ab78f41086c5d7773ef864"
+  - commit: "04ef0944db56ab01307a29aaa7303df6067cb3c0"
     type: git
     url: "https://gitlab.gnome.org/jwestman/blueprint-compiler"
 - name: stockpile
@@ -42,4 +42,4 @@ modules:
   sources:
   - type: git
     url: "https://codeberg.org/turtle/stockpile.git"
-    commit: "ff48802feab3b1bca2b6b338af695c0c8c9a55d2"
+    commit: "a51afed8ea241573618c67ee3f6046dd1c433f96"
